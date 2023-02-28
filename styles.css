@@ -1,0 +1,75 @@
+/* Color pallete
+
+#ccc6c6 - Off White
+#2a2c31 - Off Black
+#100E4F - Dark Blue
+#0090E0 - Light Blue
+#C653FF - Light Purple
+#510563 - Dark Purple
+
+*/
+
+body {
+    background-color: #2A2C31;
+    color: #CCC6C6;
+}
+
+a:link, a:hover, a:visited {
+    background-color: #2A2C31;
+    border-radius: 25px;
+    color: #CCC6C6;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+header {
+    height: 150px;
+    background-color: #100E4F;
+}
+
+nav {
+    float: right;
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#intro {
+    font-size: larger;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.column {
+    width: 27%;
+    margin: 2%;
+    padding: 1%
+}
+
+#col-1 {
+    float: left;
+}
+
+#col-2 {
+    float: left;
+}
+
+#col-3 {
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-color: #100E4F;
+    text-align: center;
+    height: 25px;
+    font-weight: bolder;
+}
